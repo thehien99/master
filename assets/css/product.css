@@ -1,0 +1,94 @@
+
+.row-car{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.car-box{
+    height: 350px;
+    width: 350px; 
+    background-color: whitesmoke;
+    margin-bottom: 20px;
+}
+.row .btns .number {
+    width: 30px;
+    border-radius: 10px;
+   
+}
+.row .btns .word{
+    width: 50px;
+    border-radius: 10px;
+    margin: 0 10px;
+}
+.btns{
+    display: flex;
+    justify-content: center;
+}
+button.active{
+    border: 1px solid blue;
+    color: blue;
+}
+#number{
+    width: 20px;
+    border-radius: 20px;
+}
+.wrapper{
+    margin-top: 10px;
+    height: 350px;
+    background-color: whitesmoke;
+    border-radius: 20px;
+    padding: 20px 10px;
+}
+.wrapper img{
+    height: 60px;
+    width: 60px;
+    margin: 0 10px;
+}
+.wrapper h5{
+    font-size: 15px;
+}
+.row a{
+    text-decoration: none;
+    color: black;
+    
+}
+.row-car{
+    display: none;
+}
+.row-car.active{
+    display: flex;
+    
+    flex-wrap: wrap;
+
+}
+.wrapper-2{
+    height: 150px;
+    background-color: whitesmoke;
+    padding: 20px 10px ;
+
+    border-radius: 20px;
+}
+.wrapper-2 .list li{
+    margin-bottom: 10px;
+}
+.question{
+    padding: 20px 10px;
+    height: 250px;
+    background-color: whitesmoke;
+    border-radius: 20px;
+
+}
+.contact li{
+    margin-top: 20px;
+}
+.icon{
+    color:yellowgreen;
+    margin-right: 10px;
+}
+.media{
+    display: flex;
+    margin: 20px 0;
+}
+
