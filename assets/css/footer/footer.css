@@ -1,0 +1,23 @@
+.footer-wrapper {
+  position: relative;
+}
+
+.footer-img {
+  position: relative;
+}
+
+.footer-img::before {
+  position: absolute;
+  content: '';
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(0, 0, 0, 0.6);
+}
+
+.footer-detail {
+  position: absolute;
+  top: 0;
+  margin-top: 100px;
+}

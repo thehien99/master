@@ -1,10 +1,7 @@
-.news-wrapper {
-  margin-top: 100px;
-}
+
 .news-wrapper{
   background-color: #fff;
-  
-  white-space: nowrap;
+  margin-top: 100px;
 }
 
 .news-heading {
@@ -47,4 +44,16 @@
   font-weight: 600;
   margin-bottom: 10px;
   line-height: 27px;
+}
+
+.news-date {
+  background-color: rgba(0, 0, 0, 0.207);
+  position: absolute;
+  top: 15px;
+  right: 15px;
+  text-align: center;
+  padding: 20px 15px 25px;
+  border-radius: 9px;
+  clip-path: polygon(0 0, 100% 0, 100% 75%, 50% 100%, 0 75%);
+  color: #fff;
 }
